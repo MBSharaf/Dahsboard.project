@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+     font-family: 'Poppins', sans-serif;
+     font-size: 12px;
+}
+
+.main{
+     position: relative;
+     display: fixed;
+}
+
+.main .dashbord{
+     position: absolute;
+     top: 170px;
+}
+
+.main .dashbord .profile {
+     position: relative; 
+     padding: 15px;
+}
+
+.main .dashbord .profile i{
+     position: absolute;
+     top: -130px;
+     left: 40px;
+     font-size: 110px;
+}
+
+.main .dashbord .profile p{
+     font-size: 10px;
+     padding-left: 20px;
+     padding-top: 20px;
+     color: #7a7e7e;
+}
+
+.main .dashbord .profile p span{
+     font-size: 20px;
+     color: #845EC2;
+}
+
+.dashbord .Elments .Home a{
+     color: white;
+     align-items: center;
+     background-color: #845EC2;
+     padding: 5px 50px;
+     border-radius: 5px;
+     text-decoration: none;
+     font-size: 16px;
+ }
+
+ .name{
+     display: flex;
+     justify-content: space-between;
+     padding: 1px;
+     
+ }
+.contant{
+     display: flex;
+     position: relative;
+}
+
+.name .logo h1{
+    display: flex;
+    position: relative;
+     font-size: 30px;
+     left: 200px;
+     color: black;
+}
+
+.logo span{
+     color: #845EC2;
+}
+.name .social-icons a{
+     position: relative;
+     top: 0px;
+     right: -640px;
+     padding: -5px;
+     color: #845EC2;
+}
+
+.main-data{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 150px;
+}
+
+.main-data-Logo{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 250px;
+    top: -20px;
+}
+
+.main-data-Logo i{
+    font-size: 100px;
+    padding-left: 20px;
+}
+
+.main-data-Logo a{
+    position: absolute;
+    left: 220px;
+    top: 5px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.main-data-Logo .pro-pic {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #845EC2;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.main-data-Logo .pro-pic:hover{
+    background-color: #845EC2;
+    color: white;
+}
+
+.main-data .main-data-Name{
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+
+.main-data .main-data-Name h3{
+    padding-right: 150px;
+}
+
+.main-data .main-data-Name input{
+    padding: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 0.5px solid #845EC2;
+
+}
+
+.main-data .main-data-Title{
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 220px;
+}
+
+.main-data .main-data-Title h3{
+    padding-right: 172px;
+}
+
+.main-data .main-data-Title input{
+    
+    height: 40px;
+    width: 400px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 0.5px solid #845EC2;
+}
+
+.main-data .main-data-org{
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 290px;
+}
+
+.main-data .main-data-org h3{
+    padding-right: 64px;
+}
+
+.main-data .main-data-org input{
+    
+    height: 40px;
+    width: 400px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 0.5px solid #845EC2;
+}
+
+.main-data .main-data-Work-num{
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 370px;
+}
+
+.main-data .main-data-Work-num h3{
+    padding-right: 123px;
+}
+
+.main-data .main-data-Work-num input{
+    
+    height: 40px;
+    width: 400px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 0.5px solid #845EC2;
+}
+
+.main-data .main-data-email{
+    display: flex;
+    position: absolute;
+    left: 250px;
+    top: 450px;
+}
+
+.main-data .main-data-email h3{
+    padding-right: 159px;
+}
+
+.main-data .main-data-email input{
+    
+    height: 40px;
+    width: 400px;
+    border-radius: 4px;
+    padding: 2px 5px;
+    border: none;
+    border-bottom: 0.5px solid #845EC2;
+}
+
+.main-data .Save-cancel {
+    position: relative;
+    top: 500px;
+    left: 260px;
+    
+}
+
+.main-data .Save-cancel .save{
+    position: absolute;
+    left: -100px;
+    padding: 11px;
+    padding-bottom: 9px;
+    padding-top: 12px;
+}
+
+.img img{
+    position: absolute;
+    left: 1100px;
+    top: 150px;
+    width: 250px;
+}

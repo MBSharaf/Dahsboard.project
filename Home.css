@@ -1,0 +1,1006 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+     font-family: 'Poppins', sans-serif;
+     font-size: 12px;
+}
+
+.main{
+     position: relative;
+     display: fixed;
+}
+
+.main .dashbord{
+     position: absolute;
+     top: 170px;
+}
+
+.main .dashbord .profile {
+     position: relative; 
+     padding: 15px;
+}
+
+.main .dashbord .profile i{
+     position: absolute;
+     top: -130px;
+     left: 40px;
+     font-size: 110px;
+}
+
+.main .dashbord .profile p{
+     font-size: 10px;
+     padding-left: 20px;
+     padding-top: 20px;
+     color: #7a7e7e;
+}
+
+.main .dashbord .profile p span{
+     font-size: 20px;
+     color: #845EC2;
+}
+
+.dashbord .Elments .Home a{
+     color: white;
+     align-items: center;
+     background-color: #845EC2;
+     padding: 5px 50px;
+     border-radius: 5px;
+     text-decoration: none;
+     font-size: 16px;
+ }
+
+ .name{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+.contant{
+     display: flex;
+     position: relative;
+     
+}
+
+.name .logo{
+     font-size: 20px;
+     left: 10px;
+     color: black;
+}
+
+.logo span{
+     color: #845EC2;
+}
+.name .social-icons{
+     position: absolute;
+     top: -20px;
+     right: -540px;
+     padding: 10px;
+     color: #845EC2;
+}
+.social-icons a{
+     margin: 5px;
+}
+
+.contant .first{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -600px;
+     left: 200px;
+     padding: 15px;
+     min-height: 200px;
+     width: 400px;
+     
+}
+.contant .first:hover{
+     border: 1px solid #9B89B3;
+  
+}
+.first i{
+     display: flex;
+     position: absolute;
+     top: 60px;
+     font-size: 100px;
+     padding-bottom: 10px;
+     color: #845EC2;
+}
+.first h2{
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     top: 20px;
+     left: 45%; 
+     text-transform: uppercase;
+}
+.first p{
+     display: flex; 
+     justify-content: center;
+     position: absolute;
+     left: 120px;
+     top: 50px;
+     padding-bottom: 20px;
+     padding: 10px;
+}
+
+.first .btn a{
+     position: absolute;
+     right: 5%;
+     bottom: 0%;
+     padding: 10px;
+     margin: 10px;
+     text-decoration: none;
+     font-size: 10px;
+     font-weight: 800;
+     text-transform: uppercase;
+     border: 0.5px solid #845EC2;
+     text-align: center;
+     letter-spacing: 1px;
+     transition: 0.5s ease;
+}
+
+.first .btn a:hover{
+     background-color: #9B89B3;
+     color: white;
+     transform: scale(1.1);
+}
+
+.contant .second{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -600px;
+     left: 650px;
+     padding: 15px;
+     min-height: 200px;
+     width: 300px;
+}
+.contant .second:hover{
+     border: 1px solid #845EC2;
+  
+}
+.text{
+     display: block;
+     justify-content: center;
+     position: relative;
+}
+
+.second h2{
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     top: 20px;
+     left: 10px; 
+     text-transform: uppercase;
+}
+.second p{
+     display: flex; 
+     justify-content: center;
+     position: absolute;
+     left: 1px;
+     top: 40px;
+     padding-bottom: 10px;
+     padding: 10px;
+     color: #7a7e7e;
+}
+
+.text input{
+     height: 20px;
+     background: transparent;
+     position: absolute;
+     top: 65px;
+     left: -5px;
+     width: 100%;
+     border-radius: 4px;
+     padding: 2px 5px;
+     border: none;
+     border-bottom: 0.5px solid #845EC2;
+}
+
+
+.text textarea{
+     height: 20px;
+     background: transparent;
+     position: absolute;
+     top: 100px;
+     width: 100%;
+     left: -5px;
+     height: 60px;
+     border-radius: 4px;
+     padding: 2px 5px;
+     border: none;
+     border-bottom: 0.5px solid #845EC2;
+}
+
+.second .btn a{
+     position: absolute;
+     right: 1%;
+     bottom: 0%;
+     padding: 10px;
+     margin: 10px;
+     text-decoration: none;
+     font-size: 10px;
+     font-weight: 800;
+     text-transform: uppercase;
+     border: 0.5px solid #845EC2;
+     text-align: center;
+     letter-spacing: 1px;
+     transition: 0.5s ease;
+}
+
+.second .btn a:hover{
+     background-color: #9B89B3;
+     color: white;
+     transform: scale(1.1);
+}
+
+.contant{
+     display: flex;
+     position: relative;
+     
+}
+
+.contant .third{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -600px;
+     left: 1000px;
+     padding: 15px;
+     min-height: 200px;
+     width: 550px;
+}
+
+.contant .third:hover{
+     border: 1px solid #9B89B3;
+  
+}
+
+.third h2{
+     display: flex;
+     justify-content: center;
+     position: absolute;
+     top: 25px;
+     left: 200px; 
+     text-transform: uppercase;
+}
+.third p{
+     display: flex; 
+     justify-content: center;
+     position: absolute;
+     left: 210px;
+     top: 45px;
+     padding-bottom: 20px;
+     padding: 10px;
+     color: #7a7e7e;
+
+}
+
+.third-box1{
+     display: block;
+     align-items: center;
+     position: absolute;
+     top: 100px;
+     padding: 40px;
+     color: black;
+     border: 0.5px solid #845EC2;
+     transition: 0.5s ease;
+}
+
+.third-box1:hover{
+     transform: scale(1.1);
+}
+
+.third-box1 h3{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     
+}
+
+.third-box1 h6{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     color: #7a7e7e;
+}
+
+.third-box1 a i{
+    font-size: 40px;
+     position: absolute; 
+     top: 20px;
+     color: #845EC2;
+}
+
+.third-box2{
+     display: block;
+     align-items: center;
+     position: absolute;
+     top: 100px;
+     left: 155px;
+     padding: 40px;
+     color: black;
+     border: 0.5px solid #845EC2;
+     transition: 0.5s ease;
+}
+
+.third-box2:hover{
+     transform: scale(1.1);
+}
+
+.third-box2 h3{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     
+}
+
+.third-box2 h6{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     color: #7a7e7e;
+}
+
+.third-box2 a i{
+    font-size: 40px;
+     position: absolute; 
+     top: 20px;
+     color: #845EC2;
+}
+
+.third-box3{
+     display: block;
+     align-items: center;
+     position: absolute;
+     top: 100px;
+     left: 300px;
+     padding: 40px;
+     color: black;
+     border: 0.5px solid #845EC2;
+     transition: 0.5s ease;
+}
+
+.third-box3:hover{
+     transform: scale(1.1);
+}
+
+.third-box3 h3{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     
+}
+
+.third-box3 h6{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     color: #7a7e7e;
+}
+
+.third-box3 a i{
+    font-size: 40px;
+     position: absolute; 
+     top: 20px;
+     color: #845EC2;
+}
+
+.third-box4{
+     display: block;
+     align-items: center;
+     position: absolute;
+     top: 100px;
+     left: 440px;
+     padding: 40px;
+     color: black;
+     border: 0.5px solid #845EC2;
+     transition: 0.5s ease;
+}
+
+.third-box4:hover{
+     transform: scale(1.1);
+}
+
+.third-box4 h3{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     
+}
+
+.third-box4 h6{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top: 25px;
+     color: #7a7e7e;
+}
+
+.third-box4 a i{
+    font-size: 40px;
+     position: absolute; 
+     top: 20px;
+     color: #845EC2;
+}
+
+.contant .forth{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -350px;
+     left: 200px;
+     padding: 0px;
+     min-height: 300px;
+     width: 430px;
+     height: 340px;
+     transition: 0.5s ease;
+}
+
+.contant .forth:hover{
+     border: 1px solid #9B89B3;
+}
+
+.contant .forth .part1{
+     display: flex;
+     justify-content: space-between;
+     background-color: #D5CABD;
+     padding: 15px;
+     border-bottom: 1px solid #845EC2;
+     position: relative;
+}
+
+.contant .forth .part1 .forth-p{
+     position: absolute;
+     top: 46px;
+     color: #555757;
+
+     
+}
+.contant .forth .Forth-box1-icon{
+     font-size: 50px;
+     position: absolute;
+     right: 10px;
+     top: 1px;
+     color: #845EC2;
+}
+
+.forth .forth-contant1{ 
+     position: absolute;
+     top: 90px;
+     left: 15px;
+     border: 1px solid #845EC2;
+     max-width: 150px;
+     min-height: 100px;
+     padding: 10px;
+     transition: 0.5s ease;
+}
+
+.forth .forth-contant1:hover{
+     transform: scale(1.1);
+}
+
+.left-arrorw{
+     height: 0;
+     width: 0;
+     position: absolute;
+     top: 50px;
+     z-index: 1;
+     border-top: 15px solid transparent;
+     border-bottom: 15px solid transparent;
+     border-left: 15px solid #845EC2;
+     right: -16px;
+}
+
+.forth .forth-contant2{ 
+     position: absolute;
+     top: 200px;
+     right: 15px;
+     border: 1px solid #845EC2;
+     max-width: 150px;
+     min-height: 100px;
+     padding: 10px;
+     transition: 0.5s ease;
+}
+
+.forth .forth-contant2:hover{
+     transform: scale(1.1);
+}
+
+.right-arrorw{
+     height: 0;
+     width: 0;
+     position: absolute;
+     top: 50px;
+     z-index: 1;
+     border-top: 15px solid transparent;
+     border-bottom: 15px solid transparent;
+     border-right: 15px solid #845EC2;
+     left: -15px;
+}
+
+.contant .fifth-contant1{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -350px;
+     left: 650px;
+     padding: 0px;
+     min-height: 300px;
+     width: 330px;
+     height: 340px;
+     transition: 0.5s ease;
+}
+
+.contant .fifth-contant1:hover{
+     border: 1px solid #9B89B3;
+     transform: scale(1);
+}
+
+.contant .fifth-contant1 h2 {
+     padding: 10px 10px 5px 10px; 
+}
+
+.contant .fifth-contant1 p {
+     padding-top: -4px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+
+     color: #7a7e7e;
+
+}
+
+.contant .fifth-contant1 .check-box-all .chck1{
+     display: flex;
+     
+     padding: 1px 10px 5px 10px;
+
+}
+
+.contant .fifth-contant1 .check-box-all .chck1 input{
+     width: 20px;
+}
+
+.contant .fifth-contant1 .check-box-all .chck1 h4{
+     padding: 10px;
+}
+
+.contant .security-info{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -350px;
+     left: 999px;
+     padding: 0px;
+     min-height: 300px;
+     width: 270px;
+     height: 340px;
+     transition: 0.5s ease;
+}
+.contant .security-info:hover{
+     border: 1px solid #9B89B3;
+     transform: scale(1);
+}
+
+.contant .security-info h2{
+     padding: 10px;
+     padding-bottom: 5px;
+}
+
+.contant .security-info p{
+     padding: 10px;
+     padding-top: 2px;
+     color: #7a7e7e;
+     
+}
+.contant .security-info .sec1 {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 10px;
+}
+
+.contant .security-info .sec1 p{
+     position: absolute;
+     top: 110px;
+     left: 1px;
+     font-size: 10px;
+     color: #7a7e7e;
+}
+
+.security-info .btn a{
+     position: absolute;
+     top: 90px;
+     right: 5%;
+     padding: 5px 15px;
+     text-decoration: none;
+     font-size: 10px;
+     font-weight: 800;
+     text-transform: uppercase;
+     border: 0.5px solid #845EC2;
+     text-align: center;
+     letter-spacing: 1px;
+     transition: 0.5s ease; 
+     background-color: transparent;
+}
+
+.security-info .btn a:hover{
+     background-color: #9B89B3;
+     color: white;
+     transform: scale(1.1);
+}
+
+.contant .security-info .sec2 {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 10px;
+}
+
+.contant .security-info .sec2 p{
+     position: absolute;
+     top: 190px;
+     left: -1px;
+     font-size: 10px;
+     color: #7a7e7e;
+}
+
+.security-info .btn1 a{
+     position: absolute;
+     top: 170px;
+     right: 5%;
+     padding: 5px 15px;
+     text-decoration: none;
+     font-size: 10px;
+     font-weight: 800;
+     text-transform: uppercase;
+     border: 0.5px solid #845EC2;
+     text-align: center;
+     letter-spacing: 1px;
+     transition: 0.5s ease; 
+     background-color: transparent;
+}
+
+.security-info .btn1 a:hover{
+     background-color: #9B89B3;
+     color: white;
+     transform: scale(1.1);
+}
+
+.contant .security-info .sec3 {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 10px;
+}
+
+.contant .security-info .sec3 p{
+     position: absolute;
+     top: 268px;
+     left: -1px;
+     font-size: 10px;
+     color: #7a7e7e;
+}
+
+.security-info .btn2 a{
+     position: absolute;
+     top: 250px;
+     right: 5%;
+     padding: 5px 15px;
+     text-decoration: none;
+     font-size: 10px;
+     font-weight: 800;
+     text-transform: uppercase;
+     border: 0.5px solid #9B89B3;
+     text-align: center;
+     letter-spacing: 1px;
+     transition: 0.5s ease; 
+     background-color: transparent;
+     
+}
+
+.security-info .btn2 a:hover{
+     background-color: #9B89B3;
+     color: white;
+     transform: scale(1.1);
+}
+.contant .top-Search{
+     display: block;
+     background-color: #FDF7FF;
+     position: absolute;
+     top: -350px;
+     left: 1290px;
+     padding: 0px;
+     min-height: 300px;
+     width: 290px;
+     height: 340px;
+     transition: 0.5s ease;
+}
+
+.contant .top-Search:hover{
+     border: 1px solid #9B89B3;
+     transform: scale(1);
+}
+
+.contant .top-Search .main-top-search{
+     padding: 10px;
+}
+
+.contant .top-Search .main-top-search p{
+     padding: 1px;
+     font-size: 13px;
+     color: #7a7e7e;
+}
+
+.contant .top-Search .JavaScript{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+.contant .top-Search .HTML{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+.contant .top-Search .CSS{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+.contant .top-Search .PHP{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+.contant .top-Search .React{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px;
+}
+
+.langs h5{
+     font-size: 15px;
+}
+.langs p{
+     background-color: #7a7e7e;
+     padding: 5px;
+     color: white;
+}
+
+.langs p:hover{
+     border: 1px solid #9B89B3;
+}
+
+@media only screen and (min-width: 0px ) and (max-width: 600px) {
+     .main{
+          top: 0;
+          background-color: transparent;
+          font-size: 10px;
+     }
+ 
+     .main .dashbord .profile{
+         opacity: 0;
+     }
+     
+     .name{
+          display: flex;
+          justify-content: space-between;
+          font-size: 10px;
+      }
+     .contant{
+          display: flex;
+          position: relative;
+          
+     }
+     
+     .name .logo{
+          font-size: 15px;
+          left: 10px;
+          color: black;
+     }
+     
+     .logo span{
+          color: #845EC2;
+     }
+     .name .social-icons{
+          position: absolute;
+          top: -20px;
+          right: -150px;
+          padding: 10px;
+          color: #845EC2;
+          font-size: 15px;
+     }
+     .social-icons a{
+          margin: 5px;
+     }
+     
+     .Elments{
+          font-size: 10px;
+     }
+
+     .Elments .home {
+          font-size: 15px;
+          color: #845EC2;
+     }
+
+     .contant .first{
+          display: block;
+          position: absolute;
+          left: 90px;
+          width: 350px;
+          font-size: 10px;
+     }
+
+     .contant .second{
+          display: block;
+          position: absolute;
+          left: 90px;
+          top: -350px;
+          width: 350px;
+          font-size: 10px;
+          
+     }
+
+     .contant .third{
+          display: block;
+          position: absolute;
+          left: 90px;
+          top: -100px;
+          width: 350px;
+          font-size: 10px;   
+     }
+
+     .third h2{
+          left: 120px;
+     }
+     .third p{
+          left: 120px;
+     }
+
+     .third-box1{
+          width: 5px;
+          padding: 30px;
+          left: 10px;
+     }
+     .third-box1 .third-box1-icon i {
+          font-size: 25px;
+          position: absolute;
+          left: 20px;
+          top: 10px;
+     }
+
+     .third-box1 h3{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box1 h6{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box2{
+          width: 5px;
+          padding: 30px;
+          left: 110px;
+     }
+     .third-box2 .third-box1-icon i {
+          font-size: 25px;
+          position: absolute;
+          left: 20px;
+          top: 10px;
+     }
+
+     .third-box2 h3{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box2 h6{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box3{
+          width: 5px;
+          padding: 30px;
+          left: 205px;
+     }
+     .third-box3 .third-box1-icon i {
+          font-size: 25px;
+          position: absolute;
+          left: 22px;
+          top: 10px;
+     }
+
+     .third-box3 h3{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box3 h6{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box4{
+          width: 5px;
+          padding: 30px;
+          left: 300px;
+     }
+     .third-box4 .third-box1-icon i {
+          font-size: 25px;
+          position: absolute;
+          left: 20px;
+          top: 10px;
+     }
+
+     .third-box4 h3{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .third-box4 h6{
+          font-size: 10px;
+          top: 15px;
+     }
+
+     .contant .forth{
+          display: block;
+          position: absolute;
+          left: 90px;
+          top: 150px;
+          width: 350px;
+          font-size: 10px;
+          
+     }
+
+     .contant .forth .Forth-box1-icon{
+          font-size: 40px;
+     }
+
+     .contant .forth .forth-contant1{
+          width: 105px;
+     }
+     .contant .forth .forth-contant2{
+          width: 105px;
+     }
+
+     .contant .fifth{
+          display: block;
+          position: absolute;
+          left: -550px;
+          top: 870px;
+          width: 430px;
+          font-size: 10px;
+     }
+
+     .contant .security-info{
+          display: block;
+          position: absolute;
+          left: 650px;
+          top: 20px;
+          width: 330px;
+          font-size: 10px;
+          
+     }
+
+     .contant .top-Search{
+          display: block;
+          position: absolute;
+          left: 650px;
+          top: 390px;;
+          width: 330px;
+          font-size: 10px;
+     }
+
+     .contant .top-Search h4{
+          font-size: 15px;
+     }
+}

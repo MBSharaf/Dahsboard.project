@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+} 
+
+.main{
+    background-color: #d0d8d8;
+    width: 25vh;
+    height: 100vh;
+}
+
+.main .dashbord{
+    position: absolute;
+    top: 170px;
+}
+
+.main .dashbord .profile {
+    position: relative; 
+    padding: 15px;
+}
+
+.main .dashbord .profile i{
+    position: absolute;
+    top: -130px;
+    left: 40px;
+    font-size: 110px;
+}
+
+.main .dashbord .profile p{
+    font-size: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: #7a7e7e;
+}
+
+.main .dashbord .profile p span{
+    font-size: 20px;
+    color: #845EC2;
+}
+
+.Elments ul a{
+    padding: 1px 5px 50px ;
+    background-color: #d0d8d8;
+    text-decoration: none;
+    color: black;
+}
+
+.Elments ul li{
+    margin: 45px 10px;
+    text-decoration: none;
+}
+
+.Elments ul li a:hover{
+    color: white;
+    align-items: center;
+    background-color: blue;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.dashbord .Elments .Charts-sidebar a{
+    color: white;
+    align-items: center;
+    background-color: #845EC2;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.name{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    font-size: 30px;
+}
+
+.name span{
+    color: #845EC2;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap: 10px;
+    width: 100px;
+    height: 10px;
+   justify-items: center;
+   align-items: center;
+}
+.charts{
+    margin: 10px auto;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: -800px;
+    top: 160px;
+    border: 0.5px solid #845EC2;
+    transition: 0.7s ease;
+}
+
+#chart_div{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: -355px;
+    width: 790px;
+}
+
+#chart_div1{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 450px;
+    width: 420px;
+}
+
+#chart_div2{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: -355px;
+}
+
+#barchart_material{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 10px;
+    width: 790px;
+    height: 280px;
+} 
+
+.charts:hover{
+    transform: scale(1);
+    border: 2px solid #9B89B3;
+}
+
+.name .social-icons{
+    position: absolute;
+    top: -20px;
+    right: -400px;
+    padding: 10px;
+    color: #845EC2;
+}
+.social-icons a{
+    margin: 5px;
+}
+
+@media only screen and (min-width: 0px ) and (max-width: 600px) {
+    .main{
+         top: 0;
+         background-color: transparent;
+    }
+
+    .main .dashbord .profile{
+        opacity: 0;
+    }
+    .dashbord h1{
+        opacity: 0;
+    }
+
+    .Elments ul li i{
+        
+        font-size: 15px;
+        align-items: center;
+        background: white;
+        
+    }
+
+    .Elments ul li a:hover{
+        color: #9B89B3;
+        align-items: center;
+        background-color: transparent;
+        padding: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .dashbord .Elments .Charts-sidebar a{
+        color: #845EC2;
+        align-items: center;
+        background-color: transparent;
+        padding: 5px ;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .Elments ul a{
+        background-color: transparent;
+    }
+
+    .name{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    .name .social-icons{
+        position: absolute;
+        top: -5px;
+        right: -140px;
+        padding: 10px;
+        color: #845EC2;
+    }
+
+    .container {
+        display: block;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    
+    .container #piechart{
+        width: 380px;
+        position: absolute;
+        left: -160px;
+    }
+    .container #chart_div{
+        width: 380px;
+        position: absolute;
+        left: -160px;
+        top: 500px;
+    }
+    .container #chart_div1{
+        width: 380px;
+        position: absolute;
+        left: -160px;
+        top: 160px;
+    }
+
+    .container #chart_div2{
+        width: 380px;
+        position: absolute;
+        left: -160px;
+        top: 840px;
+    }
+
+    .container #barchart_material{
+        width: 360px;
+        position: absolute;
+        left: -160px;
+        top: 1190px;
+        
+    }
+    
+    .charts:hover{
+        transform: scale(1);
+        border: 2px solid #9B89B3;
+    }
+    .Words {
+        font-size: 0px;
+        background-color: transparent;
+    }
+    .Words i {
+        font-size: 150px;
+
+    }
+    
+}
+
+@media only screen and (min-width: 600px ) and (max-width: 900px) {
+    .main{
+        display: fixed;
+        height: 1200px;
+         top: 0;
+         background-color: #d0d8d8;
+         height: 1600px;
+    }
+
+    .main .dashbord .profile i{
+        position: absolute;
+        top: -100px;
+        left: 40px;
+        font-size: 90px;
+    }
+
+    .dashbord h1{
+        opacity: 0;
+    }
+
+    .Elments ul li a{
+        padding: 5px 5px 50px ;
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        align-items: center;
+        
+    }
+
+    .Elments ul li a:hover{
+        color: white;
+        align-items: center;
+        background-color: transparent;
+        padding: 5px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        background-color: #9B89B3;
+    }
+    .dashbord .Elments .Charts-sidebar a{
+        color: white;
+        align-items: center;
+        background-color: #845EC2;
+        padding: 5px 30px ;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .Elments ul a{
+        background-color: transparent;
+    }
+
+    .name{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 200px;
+        font-size: 20px;
+    }
+
+    .name .social-icons{
+        position: absolute;
+        top: -5px;
+        right: -250px;
+        padding: 10px;
+        color: #845EC2;
+    }
+
+    .container {
+        display: block;
+        align-items: center;
+        position: relative;
+        box-sizing: border-box;
+    }
+
+    
+    .container #chart_div{
+        width: 500px;
+        position: absolute;
+        left: -240px;
+        top: 100px;
+    }
+    .container #chart_div1{
+        width: 500px;
+        position: absolute;
+        left: -240px;
+        top: 440px;
+    }
+
+    .container #chart_div2{
+        width: 500px;
+        position: absolute;
+        left: -240px;
+        top: 790px;
+    }
+
+    .container #barchart_material{
+        width: 480px;
+        position: absolute;
+        left: -240px;
+        top: 1140px;
+        
+    }
+    
+    
+    .charts:hover{
+        transform: scale(1);
+        border: 2px solid #9B89B3;
+    }
+    
+    
+}
+
